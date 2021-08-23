@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tailwind css</title>
+        <link rel="stylesheet" type="text/css" href="./css/styles.css"></link>
+    </head>
+    <body class="
+    bg-body-pattern 
+    bg-scroll">
+        <header class="
+        bg-black 
+        bebas 
+        text-white
+        h-20
+        xs:h-36
+        ">
+            <div class="
+                container 
+                w-11/12 
+                mx-auto 
+                flex 
+                md:flex-row
+                xs:flex-col
+            ">
+                <div id="logo" class="flex-1 xs:mx-auto">
+                    <div class="
+                        group 
+                        w-64 
+                        pt-0.5 
+                        pb-0.5 
+                        mt-4
+                        ml-5
+                        text-center 
+                        tracking-wider 
+                        cursor-pointer 
+                        overflow-hidden 
+                        transition 
+                        duration-300 
+                        rounded-sm 
+                        bg-azul-claro
+                        hover:text-black
+                        hover:bg-gray-200
+                    ">
+                        <span class="
+                            symbol 
+                            block 
+                            float-left 
+                            text-3xl
+                            mt-1
+                            ml-11
+                            animate-spin-low 
+                            group-hover:animate-from-below
+                        ">S</span>
+                        <h3 class="
+                            display-block 
+                            float-right 
+                            text-4xl
+                            mt-1.5
+                            mr-16
+                            transition
+                            duration-100
+                            group-hover:animate-from-right
+                        ">TAILWIND</h3>
+                    </div>
+                </div>
+                <nav class="flex-1">
+                    <ul class="
+                        flex
+                        flex-row
+                        h-20
+                        items-center
+                        justify-end
+                        text-2xl
+                        text-center
+                        mr-6
+                        xs:mr-0
+                        md:justify-end
+                    ">
+                        <li class="menu-item">
+                            <a class="menu-item-a" href="#">INICIO</a></li>
+                        <li class="menu-item">
+                            <a class="menu-item-a" href="#">BLOG</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item-a" href="#">FORMACIÓN</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item-a" href="#">CONTACTO</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="container w-11/12 mx-auto">
+            <div id="banner" class="
+                w-full
+                h-28
+                border-8
+                mx-auto
+                border-white
+                overflow-hidden
+                shadow
+                m-5
+                bg-banner
+                bg-banner-position
+                animate-bg-banner
+            ">
+                <h1 class="
+                   block
+                   text-white
+                   text-5xl
+                   font-normal
+                   tracking-wider
+                   m-7
+                   mx-auto
+                   text-center
+                   bebas
+                   shadow
+                   animate-text-banner
+                   xs:text-2xl
+                   xs:mt-8
+
+                ">CURSOS DE DESARROLLO WEB CON VICTOR CAPULLO</h1>
+            </div>
+
+            <div id="cards" class="flex flex-nowrap">
+                <div class="card">
+                    <span class="
+                        card-icon
+                        group-hover:text-7xl
+                        group-hover:text-azul-claro
+                        group-hover:animate-show-card-icon
+                        group-hover:scale-150
+                        group-hover:pt-5
+                    ">
+                        H
+                    </span>
+                    <h2 class="
+                        card-category
+                        group-hover:text-white
+                        group-hover:animate-show-card-category
+                    ">
+                        Desarrollos Web
+                    </h2>
+                    <p class="
+                    card-description 
+                    group-hover:text-white
+                    group-hover:animate-show-card-description
+                    ">
+                        Aprende los principales lenguajes de desarrollo webs
+                    </p>
+                </div>
+                <div class="card">
+                    <span class="
+                        card-icon
+                        group-hover:text-7xl
+                        group-hover:text-azul-claro
+                        group-hover:animate-show-card-icon
+                        group-hover:scale-150
+                        group-hover:pt-5
+                    ">
+                        _
+                    </span>
+                    <h2 class="
+                        card-category
+                        group-hover:text-white
+                        group-hover:animate-show-card-category
+                    ">                     
+                    Sistemas operativos
+                    </h2>
+                    <p class="
+                    card-description 
+                    group-hover:text-white
+                    group-hover:animate-show-card-description
+                    ">
+                        Aprende a administrar shits
+                    </p>
+                </div>
+                <div class="card">
+                    <span class="
+                        card-icon
+                        group-hover:text-7xl
+                        group-hover:text-azul-claro
+                        group-hover:animate-show-card-icon
+                        group-hover:scale-150
+                        group-hover:pt-5
+                    ">                       
+                    S
+                    </span>
+                    <h2 class="
+                        card-category
+                        group-hover:text-white
+                        group-hover:animate-show-card-category
+                    ">                     
+                    Hardware
+                    </h2>
+                    <p class="
+                    card-description 
+                    group-hover:text-white
+                    group-hover:animate-show-card-description
+                    ">                        
+                    Aprende los principales lenguajes de desarrollo webs
+                    </p>
+                </div>
+                <div class="card">
+                    <span class="
+                        card-icon
+                        group-hover:text-7xl
+                        group-hover:text-azul-claro
+                        group-hover:animate-show-card-icon
+                        group-hover:scale-150
+                        group-hover:pt-5
+                    ">                       
+                    u
+                    </span>
+                    <h2 class="
+                        card-category
+                        group-hover:text-white
+                        group-hover:animate-show-card-category
+                    ">                     
+                    Redes e internet
+                    </h2>
+                    <p class="
+                    card-description 
+                    group-hover:text-white
+                    group-hover:animate-show-card-description
+                    ">                        
+                    Configura y administra redes
+                    </p>
+                </div>
+                <div class="card">
+                    <span class="
+                        card-icon
+                        group-hover:text-7xl
+                        group-hover:text-azul-claro
+                        group-hover:animate-show-card-icon
+                        group-hover:scale-150
+                        group-hover:pt-5
+                    ">                         
+                    a
+                    </span>
+                    <h2 class="
+                        card-category
+                        group-hover:text-white
+                        group-hover:animate-show-card-category
+                    ">                      
+                    Aprende bases de datos
+                    </h2>
+                    <p class="
+                    card-description 
+                    group-hover:text-white
+                    group-hover:animate-show-card-description
+                    ">                        
+                    Configura y administra bases de datos
+                    </p>
+                </div>
+            </div>
+
+            <main class="container w-11/12 flex flex-row xs:flex-col md:flex-row mx-auto mt-4">
+                <aside class="
+                    order-2
+                    flex-none
+                    w-72
+                    min-h-full
+                    xs:w-full
+                    xs:m-0
+                    ">
+                    <h3 class="aside-header">BUSCAR</h3>
+                    <div id="search" class="
+                        w-11/12
+                        h-7
+                        m-2.5
+                        mx-auto
+                        bg-white
+                        border-gray-200
+                        rounded
+                        shadow-inner
+                    ">
+                        <form action="">
+                            <input type="text" class="
+                                w-10/12
+                                h-6
+                                border-none
+                                pl-1.5
+                                rounded-md
+                                bg-transparent
+                                text-gray-500
+                                transition
+                                duration-300
+                                outline-none
+                                focus:outline-none
+                            "/>
+                            <input type="button" value="L" class="
+                                symbol
+                                h-6
+                                cursor-pointer
+                                text-base
+                                bg-transparent
+                                border-none
+                                text-gray-500
+                                pl-2
+                            "> 
+                        </form>
+                    </div>
+                    <h3 class="aside-header">LOGIN</h3>
+                    <div id="login" class="aside-box">
+                        <form action="">
+                            <label class="login-icon" for="email">U</label>
+                            <input type="email" name="email" class="login-input">
+
+                            <label for="password" class="login-icon text-xl ml-7 mt-6">w</label>
+                            <input type="password" name="password" class="login-input">
+
+                            <input type="submit" value="ENTRAR" class="login-button">
+                            <input type="reset" value="Limpiar" class="login-button ml-1">
+
+                            <a class="login-link" href="#">Registrate aquí</a>
+                            <a class="login-link" href="#">¿Has olvidado tu contraseña?</a>
+                        </form>
+                    </div>
+
+                    <h3 class="aside-header">REDES SOCIALES</h3>
+                    <div id="social-media" class="aside-box h-48">
+                        <div class="twitter group">
+                            <a href="#" class="social-icon">t</a>
+                            <p class="
+                                social-overlay
+                                group-hover:opacity-100
+                                group-hover:transform
+                                group-hover:translate-x-1
+                            ">Twitter</p>
+                        </div>
+                        <div class="facebook group">
+                            <a href="#" class="social-icon">f</a>
+                            <p class="
+                                social-overlay
+                                group-hover:opacity-100
+                                group-hover:transform
+                                group-hover:translate-x-1
+                            ">Facebook</p>
+                        </div>
+                        <div class="youtube group">
+                            <a href="#" class="social-icon">y</a>
+                            <p class="
+                                social-overlay
+                                group-hover:opacity-100
+                                group-hover:transform
+                                group-hover:translate-x-1
+                            ">Youtube</p>
+                        </div>
+                    </div>
+
+                    <h3 class="aside-header">PATROCINADORES</h3>
+                    <div id="sponsors" class="aside-box">
+
+                    </div>
+                </aside>
+
+                <section class="
+                    order-1
+                    flex-grow
+                    mr-10
+                    xs:w-full
+                    xs:mr-0
+                ">
+                    <h2 class="articles-header">Ùltimos articulos</h2>
+
+                    <article class="article-item">
+                        <div class="article-data">
+                            <span>Fecha: 10 de Marzo</span>
+                            <span>Categoria: Pruebas</span>
+                        </div>
+
+                        <h4 class="article-head">
+                            <a href="#">Titulo del artículo</a>
+                        </h4>
+                        <p class="article-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nemo explicabo a commodi iure dolorum sit sapiente quaerat amet, modi qui deserunt temporibus saepe, rem fuga eligendi tempora officia quae!
+                        </p>
+                    </article>
+
+                    <article class="article-item">
+                        <div class="article-data">
+                            <span>Fecha: 10 de Marzo</span>
+                            <span>Categoria: Pruebas</span>
+                        </div>
+
+                        <h4 class="article-head">
+                            <a href="#">Titulo del artículo</a>
+                        </h4>
+                        <p class="article-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nemo explicabo a commodi iure dolorum sit sapiente quaerat amet, modi qui deserunt temporibus saepe, rem fuga eligendi tempora officia quae!
+                        </p>
+                    </article>
+
+                    <article class="article-item">
+                        <div class="article-data">
+                            <span>Fecha: 10 de Marzo</span>
+                            <span>Categoria: Pruebas</span>
+                        </div>
+
+                        <h4 class="article-head">
+                            <a href="#">Titulo del artículo</a>
+                        </h4>
+                        <p class="article-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nemo explicabo a commodi iure dolorum sit sapiente quaerat amet, modi qui deserunt temporibus saepe, rem fuga eligendi tempora officia quae!
+                        </p>
+                    </article>
+
+                    <article class="article-item">
+                        <div class="article-data">
+                            <span>Fecha: 10 de Marzo</span>
+                            <span>Categoria: Pruebas</span>
+                        </div>
+
+                        <h4 class="article-head">
+                            <a href="#">Titulo del artículo</a>
+                        </h4>
+                        <p class="article-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nemo explicabo a commodi iure dolorum sit sapiente quaerat amet, modi qui deserunt temporibus saepe, rem fuga eligendi tempora officia quae!
+                        </p>
+                    </article>
+
+                    <article class="article-item">
+                        <div class="article-data">
+                            <span>Fecha: 10 de Marzo</span>
+                            <span>Categoria: Pruebas</span>
+                        </div>
+
+                        <h4 class="article-head">
+                            <a href="#">Titulo del artículo</a>
+                        </h4>
+                        <p class="article-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nemo explicabo a commodi iure dolorum sit sapiente quaerat amet, modi qui deserunt temporibus saepe, rem fuga eligendi tempora officia quae!
+                        </p>
+                    </article>
+
+                    <article class="article-item">
+                        <div class="article-data">
+                            <span>Fecha: 10 de Marzo</span>
+                            <span>Categoria: Pruebas</span>
+                        </div>
+
+                        <h4 class="article-head">
+                            <a href="#">Titulo del artículo</a>
+                        </h4>
+                        <p class="article-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nemo explicabo a commodi iure dolorum sit sapiente quaerat amet, modi qui deserunt temporibus saepe, rem fuga eligendi tempora officia quae!
+                        </p>
+                    </article>
+
+
+                </section>
+            </main>
+
+        </section>
+
+        <footer class="
+            w-full
+            h-auto
+            bg-black
+            text-white
+            overflow-hidden
+        ">
+            <div class="
+                container 
+                flex
+                flex-row
+                w-11/12
+                mx-auto
+                xs:flex-col
+                md:flex-col
+                lg:flex-row
+                ">
+                <div id="menu-footer" class="footer-box">
+                    <h5 class="footer-header">MENÚ</h5>
+                    <ul class="footer-menu">
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">FORMACIÓN</a></li>
+                        <li><a href="#">CONTACTO</a></li>
+                    </ul>
+                </div>
+                <div id="location" class="footer-box">
+                    <h5 class="footer-header">¿Donde estamos?</h5>
+                    <iframe class="
+                        w-full
+                        h-80
+                        mt-3
+                        border-4
+                        border-gray-400
+                        rounded-md
+                        shadow-md
+                    " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196834.12098721715!2d2.5406719402779925!3d39.570133223617546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12979259c61ac757%3A0xc40d5406c3d058c6!2sPalma%2C%20Islas%20Baleares!5e0!3m2!1ses!2ses!4v1629656334772!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div id="info" class="footer-box">
+                    <h5 class="footer-header">Desarrollado con</h5>
+                    <p class="
+                        mb-5
+                        text-center
+                    ">
+                        <img class="block mx-auto" src="img/html5-badge-h-css3-graphics-multimedia-performance-semantics.png" alt="">
+                    </p>
+                    <h5 class="footer-header">Optimizado para</h5>
+                    <div class="browsers flex flex-row space-x-5 mb-6">
+                        <a href="#">
+                            <img src="img/firefox-icon.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/chrome.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/safari.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/android.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/ios.png" alt="">
+                        </a>
+                    </div>
+                    <h5 class="footer-header">Autor</h5>
+                    <p>&copy; Roberto Payeras</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,4 +1,5 @@
 TAILWIND WEBSITE TEST
 
-- Run build
+BUILD IT!
+
 npm run build
